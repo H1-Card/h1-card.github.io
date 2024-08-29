@@ -354,10 +354,13 @@ a.go-to-withlesscom {
   gap: var(--gap-xl);
 }
 .bye-h1card-1440-inner {
-  width: 1374px;
+  width: 100%;
+  max-width: 1374px;
+  margin: 0 auto;
+  display: flex;
   flex-direction: row;
-  justify-content: flex-end;
-  padding: 0 76px;
+  justify-content: flex-start;
+  padding: 0 20px;
   box-sizing: border-box;
   text-align: left;
   font-size: var(--font-size-59xl);
@@ -570,7 +573,6 @@ a.go-to-withlesscom {
 .footer {
   align-self: stretch;
   background-color: var(--neutral-10);
-  border-top: 1px solid var(--neutral-1);
   flex-shrink: 0;
   align-items: center;
   padding: 67px var(--padding-xl) 3px;
@@ -595,9 +597,8 @@ a.go-to-withlesscom {
 /* 1440px and below */
 @media screen and (max-width: 1440px) {
   .bye-h1card-1440-inner {
-    padding-left: var(--padding-19xl);
-    padding-right: var(--padding-19xl);
-    padding-left: 40px;
+    padding-left: 20px;
+    padding-right: 20px;
   }
 }
 
@@ -609,6 +610,9 @@ a.go-to-withlesscom {
     flex: 1;
     height: 0;
     padding: 20px 0 0;
+  }
+  .blue-vector-bg {
+    top: 600px;
   }
 }
 
@@ -641,6 +645,7 @@ a.go-to-withlesscom {
     padding-top: 44px;
     padding-bottom: var(--padding-xl);
     box-sizing: border-box;
+    margin-top: -80px;
   }
   .bye-h1card-1440 {
     gap: 38px;
@@ -655,6 +660,7 @@ a.go-to-withlesscom {
   }
   .itemised-content {
     flex: 1;
+    padding: 60px 0 85px;
   }
   .main-content-parent {
     flex-wrap: wrap;
