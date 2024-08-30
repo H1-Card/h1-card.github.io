@@ -3,12 +3,16 @@
   "version": "1.0.0",
   "description": "",
   "scripts": {
+    "autoprefixer": "npx postcss ./*.css --use autoprefixer -d ./",
     "start": "parcel ./*.html ",
     "build": "parcel build ./*.html  --dist-dir ./docs"
   },
   "author": "",
   "license": "ISC",
   "devDependencies": {
-    "parcel": "^2.7.0"
+    "autoprefixer": "^10.4.20",
+    "parcel": "^2.7.0",
+    "postcss": "^8.4.41",
+    "postcss-cli": "^11.0.0"
   }
 }
