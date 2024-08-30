@@ -193,13 +193,6 @@ a.go-to-withlesscom {
   background-color: var(--color-turquoise-100);
   z-index: 2;
 }
-.brand-icons {
-  display: flex;
-  flex-direction: column;
-  align-items: flex-start;
-  justify-content: flex-start;
-  gap: var(--gap-21xl);
-}
 .continue-to-explore,
 .everything-you-love,
 .we-decided-to {
@@ -222,87 +215,53 @@ a.go-to-withlesscom {
 }
 .brand-description {
   flex: 1;
-  flex-direction: column;
+  flex-direction: row;
   gap: var(--gap-21xl);
   min-width: 281px;
 }
 .brand-description,
-.brand-icons-parent,
+.brand-description-parent,
 .itemised-content {
   display: flex;
   align-items: flex-start;
   justify-content: flex-start;
   max-width: 100%;
 }
-.brand-icons-parent {
+.brand-description-parent {
   align-self: stretch;
-  flex-direction: row;
-  gap: var(--gap-base);
+  flex-direction: column;
 }
 .itemised-content {
-  width: 30%;
+  width: 40%;
   padding: 0 0 85px;
-  min-width: 30%;
+  min-width: 40%;
   min-height: 309px;
 }
-.group-icon,
-.group-icon1,
-.monuments-icon {
-  position: absolute;
-  top: 272.9px;
-  left: 447.1px;
-  width: 233.3px;
-  height: 188.6px;
-}
-.group-icon1,
-.monuments-icon {
-  left: 0;
-}
-.monuments-icon {
-  top: 0;
-  left: 80px;
-  width: 485.3px;
-  height: 443.3px;
-  z-index: 1;
-}
-.clouds-icon,
+
 .world-icon {
   position: absolute;
   top: 50px;
-  left: 103px;
+  left: 0;
   width: 457px;
   height: 438.1px;
   z-index: 2;
 }
-.world-icon {
-  top: 20px;
-  left: 81px;
-  width: 492.1px;
-  height: 501.3px;
-  z-index: 3;
-}
-.bitmap-icon,
-.plane-icon {
-  position: absolute;
-  top: 146.2px;
-  left: 265.6px;
-  width: 122.8px;
-  height: 43px;
-  z-index: 4;
-}
+
 .bitmap-icon {
+  z-index: 4;
+  position: absolute;
   width: 100%;
   height: 100%;
   z-index: 5;
   object-fit: contain;
-  left: 0;
-  top: 4px;
-  transform: scale(1.214);
+  left: 6px;
+  top: -15px;
+  transform: scale(.74);
 }
 .wrapper-bitmap {
   position: absolute;
   top: 200px;
-  left: 92px;
+  left: 0;
   width: 447px;
   height: 318px;
   z-index: 5;
@@ -311,12 +270,11 @@ a.go-to-withlesscom {
   justify-content: center;
 }
 .illustration-elements {
+  position: relative;
   height: 100%;
   width: 100%;
-  position: absolute;
-  margin: 0 !important;
   right: 0;
-  bottom: -0.1px;
+  bottom: 0;
   left: 0;
 }
 .main-content-parent,
@@ -326,18 +284,21 @@ a.go-to-withlesscom {
   justify-content: flex-start;
   max-width: 100%;
 }
+
 .illustration-group {
   height: 521.2px;
   flex: 1;
-  align-items: flex-start;
+  display: flex;
+  justify-content: center;
+  align-items: center;
   position: relative;
-  min-width: 442px;
   z-index: 2;
 }
 .main-content-parent {
   align-self: stretch;
   align-items: flex-end;
-  gap: 100px;
+  width: 100%;
+  gap: 110px;
   font-size: var(--heading-h5-size);
 }
 
@@ -354,13 +315,11 @@ a.go-to-withlesscom {
   gap: var(--gap-xl);
 }
 .bye-h1card-1440-inner {
-  width: 100%;
-  max-width: 1374px;
+  width: 1156px;
   margin: 0 auto;
   display: flex;
   flex-direction: row;
   justify-content: flex-start;
-  padding: 0 20px;
   box-sizing: border-box;
   text-align: left;
   font-size: var(--font-size-59xl);
@@ -535,7 +494,6 @@ a.go-to-withlesscom {
   gap: 260px;
 }
 .h1-finance-srl,
-.h1-finance-srl1,
 .p {
   margin: 0;
 }
@@ -548,13 +506,13 @@ a.go-to-withlesscom {
 }
 .bye-h1card-1440,
 .footer,
-.redirect-to-google {
+.company-legals {
   overflow-y: auto;
   display: flex;
   justify-content: flex-start;
   box-sizing: border-box;
 }
-.redirect-to-google {
+.company-legals {
   width: 1156px;
   background-color: var(--neutral-10);
   border-top: 1px solid var(--neutral-1);
@@ -630,7 +588,7 @@ a.go-to-withlesscom {
     width: 100px;
     height: auto;
   }
-  .brand-icons-parent {
+  .brand-description-parent {
     flex-wrap: wrap;
   }
   .itemised-content,
