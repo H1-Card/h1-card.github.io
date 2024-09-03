@@ -854,6 +854,9 @@ a.go-to-withlesscom {
     margin-left: 0;
     margin-top: 17px;
   }
+  .frame-group > * + * {
+    margin-top: 16px;
+  }
   .traveller-icon {
     width: 100px;
     height: auto;
@@ -1042,7 +1045,10 @@ a.go-to-withlesscom {
   /*  grid-gap: 19px;*/
   /*}*/
   .bye-h1card-1440 > * + * {
-    margin-top: 19px;
+    margin-top: 0;
+  }
+  .bye-h1card-1440-inner {
+    padding-bottom: 24px;
   }
 }
 
