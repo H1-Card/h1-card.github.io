@@ -68,7 +68,7 @@
   -webkit-box-direction: normal;
       -ms-flex-direction: row;
           flex-direction: row;
-  gap: var(--gap-base);
+  grid-gap: var(--gap-base);
 }
 .were-excited-to {
   margin: 0;
@@ -92,7 +92,7 @@
   -webkit-box-pack: start;
       -ms-flex-pack: start;
           justify-content: flex-start;
-  gap: 8px;
+  grid-gap: 8px;
   max-width: 100%;
 }
 .go-to-withlesscom {
@@ -137,7 +137,7 @@ a.go-to-withlesscom {
   -webkit-box-direction: normal;
       -ms-flex-direction: column;
           flex-direction: column;
-  gap: 31px;
+  grid-gap: 31px;
   max-width: 100%;
 }
 .header-content {
@@ -145,7 +145,7 @@ a.go-to-withlesscom {
   -webkit-box-direction: normal;
       -ms-flex-direction: row;
           flex-direction: row;
-  gap: 69px;
+  grid-gap: 69px;
   -ms-flex-wrap: nowrap;
       flex-wrap: nowrap;
 }
@@ -270,7 +270,7 @@ a.go-to-withlesscom {
   -webkit-box-direction: normal;
       -ms-flex-direction: row;
           flex-direction: row;
-  gap: var(--gap-21xl);
+  grid-gap: var(--gap-21xl);
   min-width: 281px;
 }
 .brand-description,
@@ -387,7 +387,7 @@ a.go-to-withlesscom {
       -ms-flex-align: end;
           align-items: flex-end;
   width: 100%;
-  gap: 110px;
+  grid-gap: 110px;
   font-size: var(--heading-h5-size);
 }
 
@@ -412,7 +412,7 @@ a.go-to-withlesscom {
   -webkit-box-pack: start;
       -ms-flex-pack: start;
           justify-content: flex-start;
-  gap: var(--gap-xl);
+  grid-gap: var(--gap-xl);
 }
 .bye-h1card-1440-inner {
   width: 1156px;
@@ -499,7 +499,7 @@ a.go-to-withlesscom {
   -webkit-box-direction: normal;
       -ms-flex-direction: column;
           flex-direction: column;
-  gap: 21.6px;
+  grid-gap: 21.6px;
 }
 .withless-logo-vector {
   width: 212px;
@@ -589,7 +589,7 @@ a.go-to-withlesscom {
   -webkit-box-pack: start;
       -ms-flex-pack: start;
           justify-content: flex-start;
-  gap: var(--gap-5xl);
+  grid-gap: var(--gap-5xl);
 }
 .legal1,
 .terms-conditions {
@@ -636,7 +636,7 @@ a.go-to-withlesscom {
   -webkit-box-pack: start;
       -ms-flex-pack: start;
           justify-content: flex-start;
-  gap: var(--gap-5xl);
+  grid-gap: var(--gap-5xl);
   font-size: var(--heading-h5-size);
 }
 .contact-parent {
@@ -650,7 +650,7 @@ a.go-to-withlesscom {
   -webkit-box-pack: justify;
       -ms-flex-pack: justify;
           justify-content: space-between;
-  gap: var(--gap-xl);
+  grid-gap: var(--gap-xl);
 }
 .footer-content,
 .footer-links {
@@ -686,7 +686,7 @@ a.go-to-withlesscom {
       -ms-flex-direction: row;
           flex-direction: row;
   position: relative;
-  gap: 260px;
+  grid-gap: 260px;
 }
 .h1-finance-srl,
 .p {
@@ -750,7 +750,7 @@ a.go-to-withlesscom {
       -ms-flex-align: center;
           align-items: center;
   padding: 67px var(--padding-xl) 3px;
-  gap: 32px;
+  grid-gap: 32px;
   max-width: 100%;
   text-align: left;
   font-size: var(--heading-h3-size);
@@ -765,7 +765,7 @@ a.go-to-withlesscom {
       -ms-flex-align: end;
           align-items: flex-end;
   padding: 91px 0 0;
-  gap: 45px;
+  grid-gap: 45px;
   line-height: normal;
   letter-spacing: normal;
 }
@@ -805,7 +805,7 @@ a.go-to-withlesscom {
     min-width: 100%;
   }
   .header-content {
-    gap: 17px;
+    grid-gap: 17px;
   }
   .traveller-icon {
     width: 100px;
@@ -820,10 +820,10 @@ a.go-to-withlesscom {
     min-width: 100%;
   }
   .main-content-parent {
-    gap: 22px;
+    grid-gap: 22px;
   }
   .footer {
-    gap: var(--gap-base);
+    grid-gap: var(--gap-base);
     padding-top: 44px;
     padding-bottom: var(--padding-xl);
     -webkit-box-sizing: border-box;
@@ -831,7 +831,7 @@ a.go-to-withlesscom {
     margin-top: -80px;
   }
   .bye-h1card-1440 {
-    gap: 38px;
+    grid-gap: 38px;
   }
   .bye-h1card-welcome-to-parent {
     -ms-flex-wrap: wrap;
@@ -845,7 +845,7 @@ a.go-to-withlesscom {
     -webkit-box-align: center;
         -ms-flex-align: center;
             align-items: center;
-    gap: 34px;
+    grid-gap: 34px;
   }
   .itemised-content {
     -webkit-box-flex: 1;
@@ -858,7 +858,7 @@ a.go-to-withlesscom {
         flex-wrap: wrap;
   }
   .footer-content {
-    gap: 130px;
+    grid-gap: 130px;
     -ms-flex-wrap: wrap;
         flex-wrap: wrap;
   }
@@ -908,7 +908,7 @@ a.go-to-withlesscom {
     width: 120px;
   }
   .footer-content {
-    gap: 40px;
+    grid-gap: 40px;
   }
   .illustration-group {
     height: calc(100vw * 0.9);
@@ -948,10 +948,10 @@ a.go-to-withlesscom {
     line-height: 26px;
   }
   .frame-parent {
-    gap: 15px;
+    grid-gap: 15px;
   }
   .brand-description {
-    gap: var(--gap-xl);
+    grid-gap: var(--gap-xl);
   }
   .contact1,
   .legal1 {
@@ -963,10 +963,10 @@ a.go-to-withlesscom {
         flex-wrap: wrap;
   }
   .footer-content {
-    gap: 40px;
+    grid-gap: 40px;
   }
   .bye-h1card-1440 {
-    gap: 19px;
+    grid-gap: 19px;
   }
 }
 
